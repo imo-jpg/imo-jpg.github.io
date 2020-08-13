@@ -2,7 +2,7 @@ let links = document.getElementsByClassName("link");
 
 for (let i = 0; i < links.length; i++) {
     links[i].addEventListener("click", showPreview);
-    links[i].addEventListener("touchstart", showPreview);
+    // links[i].addEventListener("touchstart", showPreview);
 }
 
 function showPreview(event) {
