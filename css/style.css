@@ -26,6 +26,10 @@ h2 {
     /* text-shadow: 2px 2px #34BC6E; */
 }
 
+#main-subpage h2 {
+    margin-bottom: 10px;
+}
+
 h3 {
     font-size: 2rem;
     font-weight: 400;
@@ -54,6 +58,13 @@ a {
     font-size: 1.5rem;
     font-weight: 200;
     cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+h2 a {
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 
 a:hover {
@@ -109,6 +120,14 @@ ul li a {
     transform: translate(12.5%, 0%);
 }
 
+#main-subpage .preview {
+    display: block;
+}
+
+#main-subpage .subpreview {
+    padding-top: 10px;
+}
+
 .preview p {
     font-size: 1rem;
     font-style: italic;
@@ -119,7 +138,6 @@ ul li a {
 }
 
 img {
-    
     width: 100%;
 }
 
@@ -140,9 +158,17 @@ img {
         margin: 10px 0px;
     }
 
+    #main-subpage h2 a {
+        font-size: 2rem;
+    } 
+
     h3 {
         font-size: 1.5rem;
     }
+
+    #main-subpage h3 {
+        font-size: 1rem;
+    } 
 
     ul li {
         margin: 20px 0px;
@@ -154,6 +180,12 @@ img {
 
     p {
         font-size: 1rem;
+    }
+
+    #main-subpage .preview {
+        width: 100%;
+        left: 0%;
+        transform: translate(0%, 0%); 
     }
 
     .preview p {
