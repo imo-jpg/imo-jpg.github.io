@@ -16,6 +16,22 @@ div {
     overflow-x: hidden;
 }
 
+.title {
+    position: fixed;
+    z-index: 10;
+    background: #111111;
+    padding-top: 20px;
+    top: 0;
+}
+
+#main-subpage .content {
+    padding-top: 62px;
+}
+
+#about {
+    padding-top: 62px;
+}
+
 h2 {
     font-size: 2.5rem;
     font-weight: 700;
@@ -97,6 +113,10 @@ ul li a {
     height: 1px;
 }
 
+.name {
+    margin-bottom: 0;
+}
+
 .name:after {
     content: "";
     display: block;
@@ -120,12 +140,27 @@ ul li a {
     transform: translate(12.5%, 0%);
 }
 
+#main-subpage .arrow {
+    display: inline;
+    transform: scaleX(-1);
+    width: auto;
+}
+
 #main-subpage .preview {
     display: block;
 }
 
+.preview a {
+    font-size: 1rem;
+}
+
 #main-subpage .subpreview {
     padding-top: 10px;
+}
+
+#main-subpage .mobile {
+    padding-top: 10px;
+    width: 50%;
 }
 
 .preview p {
@@ -167,6 +202,7 @@ img {
     }
 
     #main-subpage h3 {
+        display: inline;
         font-size: 1rem;
     } 
 
