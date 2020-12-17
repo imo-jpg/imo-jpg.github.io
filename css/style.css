@@ -17,7 +17,6 @@ div {
 }
 
 .title {
-    position: fixed;
     z-index: 10;
     background: #111111;
     padding-top: 20px;
@@ -25,7 +24,7 @@ div {
 }
 
 #main-subpage .content {
-    padding-top: 62px;
+    /* padding-top: 62px; */
 }
 
 #main-subpage .subcontent {
@@ -45,7 +44,7 @@ div {
 }
 
 #about {
-    padding-top: 62px;
+    /* padding-top: 62px; */
 }
 
 h2 {
