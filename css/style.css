@@ -17,10 +17,7 @@ div {
 }
 
 .title {
-    z-index: 10;
-    background: #111111;
     padding-top: 20px;
-    top: 0;
 }
 
 #main-subpage .content {
@@ -257,6 +254,15 @@ ul li a {
     background-color: #717171;
 }
 
+.scrollimage {
+    width: 100%;
+}
+
+.scrolling {
+    height: 70vh;
+    overflow-y: scroll;
+}
+
 @media only screen and (max-width:600px) {
     @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,700;1,300&display=swap');
     
@@ -268,6 +274,22 @@ ul li a {
     h2 {
         font-size: 2rem;
         margin: 10px 0px;
+    }
+
+    .title {
+        padding-top: 0px;
+    }
+
+    #main-subpage .descrip {
+        margin-top: 10%;
+        display: block;
+        float: none;
+        width: 100%;
+        font-size: 1.25rem;
+    }
+
+    .scrolling {
+        height: auto;
     }
 
     #main-subpage h2 a {
