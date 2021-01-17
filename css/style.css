@@ -32,13 +32,13 @@ div {
     margin-top: 10%;
     display: inline-block;
     float: left;
-    width: 25%;
-    font-size: 1.25rem;
+    width: 20%;
+    font-size: 1rem;
 }
 
-#main-subpage .descrip a {
-    font-size: 1.25rem;
-}
+/* #main-subpage .descrip a {
+    font-size: 1rem;
+} */
 
 #about {
     /* padding-top: 62px; */
@@ -152,7 +152,7 @@ ul li a {
 #main-subpage .preview {
     float: right;
     display: inline-block;
-    width: 70%;
+    width: 75%;
     /* max-width: 1000px; */
     position: relative;
     margin: 30px auto;
