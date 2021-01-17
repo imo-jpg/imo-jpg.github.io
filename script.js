@@ -1,47 +1,26 @@
-let links = document.getElementsByClassName("link");
 
-for (let i = 0; i < links.length; i++) {
-    links[i].addEventListener("click", showPreview);
-    // links[i].addEventListener("touchstart", showPreview);
-}
+let first = document.getElementsByClassName("first");
+let second = document.getElementsByClassName("second");
+let work = document.getElementById("work");
+let about = document.getElementById("about");
+let description = document.getElementsByClassName("description");
+console.log(description);
 
-function showPreview(event) {
-    let element = event.target;
-    let preview = event.target.nextSibling.nextSibling;
+let firstTitle = first[0].firstChild.nextSibling;
 
-    if (element.classList.contains("open") == false) {
-        preview.classList.add("show");
-        event.target.classList.add("open");
+console.log(work.firstElementChild);
 
-    } else {
-        preview.classList.remove("show");
-        event.target.classList.remove("open");
+function showSecond() {
+    work.classList.add("hide");
+    work.firstElementChild.classList.add("remove");
+    for (i = 0; i < second.length; i++){
+        second[i].classList.add("show");
     }
 }
 
-
-let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+function showAbout() {
+    about.firstElementChild.classList.add("remove");
+    description[0].classList.add("show");
 }
 
-function showSlides(n) {
-    let slides = document.getElementsByClassName("slides");
-    
-    if (n > slides.length) {
-        slideIndex = 1;
-    };
-
-    if (n < 1) {
-        slideIndex = slides.length;
-    };
-
-    for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    };
-    
-    slides[slideIndex-1].style.display = "block";
-}
 
