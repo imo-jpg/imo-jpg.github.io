@@ -4,76 +4,38 @@
         <title>Imogen Todd</title>
         <link rel="icon" type="image/png" href="css/icon.png"/>
         <meta property="og:title" content="Imogen Todd"/>
-        <!-- <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;400;700&display=swap" rel="stylesheet"> -->
-        <!-- <meta property="og:image" content="background.png"/> -->
         <link href="css/style.css" type="text/css" rel="stylesheet" /> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div class="title">
-            <h2 class="name">Imogen Todd</h2>
-        </div>
-        <div id="about">
-            <h3 class="section">About</h3>
-            <p>
-                I am a data visualization and UX designer with a background in decision science, currently at Capital One creating data-driven finance experiences for our CFO and his leadership team.
-            </p>
-        </div>
-        <div id="work">
-            <h3 class="section">WORK</h3>
-            <ul>
-                <li>
-                    <a class="link">Investor Relations on Demand</a>
-                    <div class="preview">
-                        <p>I'm not actually allowed to share this project publicly, so if you'd like to talk about it, please drop me a line at imo.todd@gmail.com</p>
-                    </div>
-                </li>
-                <!-- <li>
-                    <a class="link">Fraud alerts</a>
-                    <div class="preview">
-                        <p>
-                            This was a self-initiated project during my first rotation. 
-                            I took quantitative data about our fraud alerts 
-                            (how many get sent out, how many garner responses, etc.) 
-                            and combined it with qualitiative data (how did customers 
-                            react to receiving alerts, how did an alert impact the rest 
-                            of someone's day) to create a decision tree showing the scenarios 
-                            that could play out after a fraud alert is triggered in our system.
-                        </p>
-                    </div>
-                </li> -->
-                <li>
-                    <a href="lowheads.html" class="link">Low Heads logo work</a>
-                </li>
-                <li>
-                    <a href="pacificstandard.html" class="link">Pacific Standard editorial artwork</a>
-                </li>
-            </ul>
-        </div>
-        <div id="play">
-            <h3 class="section">Play</h3>
-            <ul>
-                <li>
-                    <a href="constellations.html" class="link">Constellations</a>
-                </li>
-                <!-- <li>
-                    <a href="eva.html" class="link">Eva Marsh (website)</a>
-                </li> -->
-                <li>
-                    <a href="bookcovers2.html" class="link">Book covers</a>
-                </li>
-                <li>
-                    <a href="shoes.html" class="link">Shoe collages</a>
-                </li>
-            </ul>
-        </div>
-        <div id="connect">
-            <h3 class="section">Connect</h3>
-            <p>
-                You can reach me at <a>imo.todd@gmail.com</a>
-                and occasionally at @imo.jpg on Instagram
-            </p>
-        </div>
+        <section>
+            <div onclick="showSecond()" class="first" id="work">
+                <h1>work</h1>
+            <div class="second" id="irod">
+                <h2>IROD</h2>
+            </div>
+            <div class="second" id="books">
+                <h2>Books</h2>
+            </div>
+            <div class="second" id="lowheads">
+                <h2>lowheads</h2>
+            </div>
+            <div class="second" id="psmag">
+                <h2>PSMag</h2>
+            </div>
+            </div>
+            <!-- <div onclick="showAbout()" class="first" id="about"> -->
+            <div class="first" id="about">
+                <h1>Imogen Todd</h1>
+                <p class="description">
+                    I am a data visualization and UX designer with a background in decision science, currently at Capital One creating data-driven finance experiences for our CFO and his leadership team.
+                </p>
+            </div>
+        </section>
+        <section>
+            
+        </section>
+        
         <script src="script.js"></script>
     </body>
 </html>
