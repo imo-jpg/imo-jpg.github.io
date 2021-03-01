@@ -20,10 +20,6 @@ div {
     padding-top: 20px;
 }
 
-#main-subpage .content {
-    /* padding-top: 62px; */
-}
-
 #main-subpage .subcontent {
     display: block;
 }
@@ -36,9 +32,9 @@ div {
     font-size: 1rem;
 }
 
-/* #main-subpage .descrip a {
+#main-subpage .descrip a {
     font-size: 1rem;
-} */
+}
 
 #about {
     /* padding-top: 62px; */
