@@ -185,6 +185,11 @@ img {
     margin-top: 25px;    
 }
 
+.preview {
+    display: none;
+    margin-top: 15px;
+}
+
 .show {
     display: block;
 }
