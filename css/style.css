@@ -152,8 +152,8 @@ ul li a {
 }
 
 #main-subpage .preview {
+    display: block;
     float: right;
-    /* display: inline-block; */
     width: 75%;
     position: relative;
     margin: 15px auto;
@@ -226,10 +226,6 @@ img {
 
 .prev:hover, .next:hover {
     background-color: rgba(17,17,17,0.8);
-}
-
-.dots {
-    text-align: center;
 }
 
 .text {
