@@ -281,6 +281,10 @@ img {
         font-size: 1.25rem;
     }
 
+    #main-subpage .descrip a {
+        font-size: 1.25rem;
+    }
+
     .scrolling {
         height: auto;
     }
@@ -299,7 +303,7 @@ img {
 
     #main-subpage h3 {
         display: inline;
-        font-size: 1rem;
+        font-size: 1.25rem;
     } 
 
     ul li {
@@ -323,6 +327,10 @@ img {
     }
 
     .preview p {
+        font-size: .75rem;
+    }
+
+    .preview a {
         font-size: .75rem;
     }
 
