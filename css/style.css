@@ -22,6 +22,7 @@ div {
 
 #main-subpage {
     overflow-y: hidden;
+    height: 100vh;
 }
 
 #main-subpage .subcontent {
@@ -97,6 +98,8 @@ h2 a {
 #main-subpage h2, h2 a {
     font-size: 1.5rem;
 }
+
+
 
 a:hover {
     text-decoration: white underline;
@@ -247,13 +250,8 @@ img {
 }
 
 .scrolling {
-    /* height: 70vh; */
-    height: 85vh;
+    height: 80vh;
     overflow-y: scroll;
-}
-
-.scrolling p:last-of-type {
-    padding-bottom: 50px;
 }
 
 @media only screen and (max-width:600px) {
