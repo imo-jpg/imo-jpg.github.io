@@ -266,6 +266,10 @@ img {
         padding-top: 0px;
     }
 
+    .home{
+        display: none;
+    }
+
     #main-subpage .descrip {
         margin-top: 5%;
         display: block;
