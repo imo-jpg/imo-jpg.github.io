@@ -262,11 +262,11 @@ img {
         margin: 0px 0px 10px 0px;
     }
 
-    .title {
+    #main-subpage .title {
         padding-top: 0px;
     }
 
-    .home{
+    .home {
         display: none;
     }
 
