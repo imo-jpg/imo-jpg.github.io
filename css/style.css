@@ -20,6 +20,15 @@ div {
     padding-top: 20px;
 }
 
+#disclaimer, #disclaimer a {
+    font-size: .75rem;
+    font-weight: 200;
+}
+
+#about p {
+    font-size: 1rem;
+}
+
 #main-subpage {
     overflow-y: hidden;
     height: 100vh;
@@ -84,11 +93,15 @@ ul li {
 }
 
 a {
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 200;
     cursor: pointer;
     text-decoration: none;
     color: white;
+}
+
+#work a {
+    cursor:auto;
 }
 
 h2 a {
@@ -101,9 +114,12 @@ h2 a {
 }
 
 
-
 a:hover {
     text-decoration: white underline;
+}
+
+#work a:hover {
+    text-decoration: none;
 }
 
 ul li a {
@@ -151,7 +167,8 @@ ul li a {
     bottom: 8px;
 }
 
-#connect p {
+#connect p, #connect a {
+    font-size: 1rem;
     padding-bottom: 0;
 }
 
@@ -174,10 +191,10 @@ ul li a {
     font-size: 1rem;
     font-style: italic;
 }
-
+/* 
 #about p {
     font-style: italic;
-}
+} */
 
 #main-subpage .mobile {
     padding-top: 10px;
