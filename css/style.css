@@ -241,10 +241,6 @@ img {
     margin-top: 15px;
 }
 
-.show {
-    display: block;
-}
-
 .slides {
     height: 500px;
     display: none;
