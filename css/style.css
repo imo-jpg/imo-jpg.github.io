@@ -24,6 +24,7 @@ div {
     font-size: .75rem;
     font-weight: 200;
     margin: 5px 0;
+    font-style: italic;
 }
 
 .title p {
@@ -37,19 +38,25 @@ div {
 }
 
 #main-subpage .subcontent {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
 }
 
-/* #main-subpage .title {
-    padding-top: 0px;
-} */
+#main-subpage .left {
+    margin-top: 2.5%;
+    width: 20%;
+}
 
 #main-subpage .descrip {
-    margin-top: 5%;
     display: inline-block;
-    width: 20%;
+    width: 100%;
     font-size: 1rem;
 }
+
+/* #main-subpage .tags {
+    width: 20%;
+} */
 
 #main-subpage .descrip a {
     font-size: 1rem;
@@ -285,10 +292,12 @@ img {
 
 .scrollimage {
     width: 100%;
+    cursor: pointer;
 }
 
 .scrollimagesmall {
     width: 50%;
+    cursor: pointer;
 }
 
 .scrolling {
@@ -392,16 +401,18 @@ img {
     }
 
     .link:after {
-        left: 0%;
-        bottom: -10px;
+        display: none;
     }
 
     .non_link:after {
-        left: 0%;
-        bottom: -10px;
+        display: none;
     }
 
     .name:after {
+        display: none;
+    }
+
+    .placeholder {
         display: none;
     }
 }
