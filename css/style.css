@@ -46,12 +46,14 @@ div {
 #main-subpage .left {
     margin-top: 2.5%;
     width: 20%;
+    /* height: 500px;
+    overflow-y: scroll; */
 }
 
 #main-subpage .descrip {
     display: inline-block;
     width: 100%;
-    font-size: 1rem;
+    font-size: .75rem;
 }
 
 /* #main-subpage .tags {
@@ -59,7 +61,7 @@ div {
 } */
 
 #main-subpage .descrip a {
-    font-size: 1rem;
+    font-size: .75rem;
     text-decoration: white underline;
 }
 
@@ -221,11 +223,11 @@ ul li a {
 }
 
 .preview a {
-    font-size: 1rem;
+    font-size: .75rem;
 }
 
 .preview p {
-    font-size: 1rem;
+    font-size: .75rem;
     font-style: italic;
 }
 /* 
