@@ -46,8 +46,6 @@ div {
 #main-subpage .left {
     margin-top: 2.5%;
     width: 20%;
-    /* height: 500px;
-    overflow-y: scroll; */
 }
 
 #main-subpage .descrip {
@@ -55,10 +53,6 @@ div {
     width: 100%;
     font-size: .75rem;
 }
-
-/* #main-subpage .tags {
-    width: 20%;
-} */
 
 #main-subpage .descrip a {
     font-size: .75rem;
@@ -72,19 +66,13 @@ h2 {
     display: inline-block;
     padding-right: 10px;
     margin-top: 0;
-    /* text-shadow: 2px 2px #34BC6E; */
 }
-
-/* #main-subpage h2 {
-    margin-bottom: 10px;
-} */
 
 h3 {
     font-size: 1.75rem;
     font-weight: 400;
     position: relative;
     display: inline-block;
-    /* text-transform: uppercase; */
     margin: 10px 0px 0px 0px;
     padding: 0px 10px 0px 0px;
 }
@@ -145,7 +133,6 @@ ul li a {
 
 .tag {
     font-size: 8px;
-    /* background-color: #717171; */
     border: 1px solid #717171;
     border-radius: 10px;
     padding: 5px 10px;
@@ -230,10 +217,6 @@ ul li a {
     font-size: .75rem;
     font-style: italic;
 }
-/* 
-#about p {
-    font-style: italic;
-} */
 
 #main-subpage .mobile {
     padding-top: 10px;
@@ -332,16 +315,29 @@ img {
         display: none;
     }
 
+    #main-subpage {
+        overflow-y: scroll;
+    }
+
+    #main-subpage .subcontent {
+        display: block;
+    }
+    
+    #main-subpage .left {
+        margin-top: 2.5%;
+        width: 100%;
+    }
+
     #main-subpage .descrip {
         margin-top: 5%;
         display: block;
         float: none;
         width: 100%;
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 
     #main-subpage .descrip a {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 
     .scrolling {
@@ -361,7 +357,6 @@ img {
     }
 
     #main-subpage h3 {
-        display: inline;
         font-size: 1.25rem;
     } 
 
@@ -398,8 +393,7 @@ img {
     }
 
     .section:after {
-        left: 0%;
-        bottom: -8px;
+        display: none;
     }
 
     .link:after {
