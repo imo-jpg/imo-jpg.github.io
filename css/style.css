@@ -356,6 +356,31 @@ img {
         display: none;
     }
 
+    span {
+        padding: 2.5px 10px;
+        font-weight: 700;
+    }
+
+    #case-study {
+        overflow-y: scroll;
+    }
+    
+    #case-study .descrip-title {
+        margin: 0 auto;
+        width: 100%;
+        font-weight: 700;
+        font-size: 1.25rem;
+    }
+    
+    #case-study .descrip {
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    #case-study .scrolling {
+        padding-top: 5%;
+    }
+
     #main-subpage {
         overflow-y: scroll;
     }
@@ -367,15 +392,6 @@ img {
     #main-subpage .left {
         margin-top: 2.5%;
         width: 100%;
-    }
-
-    #main-subpage .descrip-title {
-        display: block;
-        margin: 0;
-        float: none;
-        font-weight: 400;
-        width: 100%;
-        font-size: 1.45rem;
     }
 
     #main-subpage .descrip {
