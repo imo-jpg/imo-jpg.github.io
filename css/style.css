@@ -29,7 +29,28 @@ div {
 
 .title p {
     font-size: 1rem;
-    padding-bottom: 2.5%;
+    padding-bottom: 1.5%;
+}
+
+#case-study {
+    overflow-y: hidden;
+    height: 100vh;
+}
+
+#case-study .descrip-title {
+    margin: 0 auto;
+    width: 55%;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#case-study .descrip {
+    margin: 0 auto;
+    width: 55%;
+}
+
+#case-study .scrolling {
+    padding-top: 5%;
 }
 
 #main-subpage {
@@ -48,14 +69,23 @@ div {
     width: 20%;
 }
 
+#main-subpage .descrip-title {
+    display: inline-block;
+    margin: 0;
+    font-weight: 400;
+    width: 100%;
+    font-size: 1.25rem;
+}
+
 #main-subpage .descrip {
     display: inline-block;
     width: 100%;
-    font-size: .75rem;
+    font-size: .95rem;
+    margin-bottom: 12%;
 }
 
 #main-subpage .descrip a {
-    font-size: .75rem;
+    font-size: .95rem;
     text-decoration: white underline;
 }
 
@@ -132,11 +162,22 @@ ul li a {
 }
 
 .tag {
-    font-size: 8px;
+    font-size: 12px;
     border: 1px solid #717171;
     border-radius: 10px;
     padding: 5px 10px;
     margin-right: 10px;
+}
+
+span {
+    border: 1px solid #717171;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+span:hover {
+    text-decoration: none;
 }
 
 .link:after {
@@ -328,12 +369,22 @@ img {
         width: 100%;
     }
 
+    #main-subpage .descrip-title {
+        display: block;
+        margin: 0;
+        float: none;
+        font-weight: 400;
+        width: 100%;
+        font-size: 1.45rem;
+    }
+
     #main-subpage .descrip {
         margin-top: 5%;
         display: block;
         float: none;
         width: 100%;
         font-size: 1rem;
+        margin-bottom: 6%;
     }
 
     #main-subpage .descrip a {
