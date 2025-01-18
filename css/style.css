@@ -372,7 +372,8 @@ img {
     }
     
     #case-study .descrip {
-        margin: 0 auto;
+        margin: 0 auto 20px auto;
+        padding-bottom: 10px;
         width: 100%;
     }
     
