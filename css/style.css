@@ -97,9 +97,12 @@ div {
     margin-bottom: 12%;
 }
 
-#main-subpage .descrip a {
-    font-size: .95rem;
+.content a {
     text-decoration: white underline;
+}
+
+#main-subpage .content a {
+    font-size: .95rem;
 }
 
 h2 {
@@ -389,6 +392,11 @@ img {
         padding-bottom: 10px;
         width: 100%;
     }
+
+    #case-study .caption {
+        margin: 15px auto 40px auto;
+        width: 100%;
+    }
     
     #case-study .scrolling {
         padding-top: 5%;
@@ -450,7 +458,7 @@ img {
     }
 
     a {
-        text-decoration: none;
+        text-decoration: white underline;
         color: #fff;
         font-size: 1rem;
     }
