@@ -38,19 +38,32 @@ div {
 }
 
 #case-study .descrip-title {
-    margin: 0 auto;
+    margin: 5% auto 0 auto;
     width: 55%;
     font-weight: 700;
     font-size: 1.5rem;
 }
 
 #case-study .descrip {
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
     width: 55%;
+}
+
+#case-study .caption {
+    font-style: italic;
+    font-size: .85rem;
+    margin: 0 auto 100px auto;
+    width: 65%;
 }
 
 #case-study .scrolling {
     padding-top: 5%;
+}
+
+#case-study .scrollimage {
+    display: block;
+    width: 65%;
+    margin: 2.5% auto 1.5% auto;
 }
 
 #main-subpage {
@@ -379,6 +392,11 @@ img {
     
     #case-study .scrolling {
         padding-top: 5%;
+    }
+
+    #case-study .scrollimage {
+        margin: 0 auto;
+        width: 100%;
     }
 
     #main-subpage {
