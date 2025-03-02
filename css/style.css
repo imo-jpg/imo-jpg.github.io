@@ -355,13 +355,6 @@ img {
     padding: 50px 0px;
 }
 
-/* .thumbnail_big {
-    width: 75%;
-}
-
-.thumbnail_small {
-    width: 25%;
-} */
 .featured_container {
     display: flex;
     flex-direction: row;
@@ -373,7 +366,6 @@ img {
     width: 65%;
     display: flex;
     flex-direction: column;
-    /* padding: 5%; */
 }
 
 .featured_column_right {
@@ -381,7 +373,6 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* padding: 5%; */
 }
 
 .featured_row {
@@ -416,6 +407,18 @@ img {
 
     span {
         padding: 2.5px 10px;
+    }
+
+    .featured_container {
+        flex-direction: column;
+    }
+
+    .featured_column_left {
+        width: 100%;
+    }
+    
+    .featured_column_right {
+        width: 100%;
     }
 
     #case-study {
@@ -473,6 +476,7 @@ img {
 
     #main-subpage .descrip a {
         font-size: 1rem;
+        text-decoration: underline;
     }
 
     .scrolling {
