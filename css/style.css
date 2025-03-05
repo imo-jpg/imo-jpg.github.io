@@ -384,6 +384,10 @@ img {
     width: 100%;
 }
 
+.title img {
+    width: 100%;
+}
+
 @media only screen and (max-width:600px) {
     @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,700;1,300&display=swap');
     
