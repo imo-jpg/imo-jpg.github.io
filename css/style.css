@@ -538,7 +538,7 @@ img {
     }
 
     a {
-        text-decoration: white underline;
+        text-decoration: underline;
         color: #fff;
         font-size: 1rem;
     }
