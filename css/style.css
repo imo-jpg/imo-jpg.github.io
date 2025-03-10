@@ -32,6 +32,26 @@ div {
     padding-bottom: 1.5%;
 }
 
+.previews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.previews-left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.thumbnail_small {
+    margin: 1% 1% 0 0;
+    width: 200px;
+    height: 100%;
+}
+
 #case-study {
     overflow-y: hidden;
     height: 100vh;
@@ -394,6 +414,16 @@ img {
     body {
         font-family: 'IBM Plex Mono', monotype;
         margin: 30px;
+    }
+
+    .previews {
+        justify-content: flex-start;
+    }
+
+    .thumbnail-small {
+        width: 100%;
+        height: 100%;
+        margin: 5% 0 5% 0;
     }
 
     h2 {
