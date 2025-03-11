@@ -77,7 +77,7 @@ div {
 }
 
 #case-study .scrolling {
-    padding-top: 5%;
+    padding: 5% 0 5% 0;
 }
 
 #case-study .scrollimage {
@@ -369,6 +369,7 @@ img {
 .scrolling {
     height: 80vh;
     overflow-y: scroll;
+    padding-bottom: 7.5%;
 }
 
 .lyrics {
