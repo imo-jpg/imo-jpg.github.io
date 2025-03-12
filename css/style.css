@@ -48,8 +48,8 @@ div {
 
 .thumbnail_small {
     margin: 1% 1% 0 0;
-    width: 200px;
-    height: 100%;
+    width: auto;
+    height: 150px;
 }
 
 #case-study {
@@ -362,7 +362,7 @@ img {
 }
 
 .scrollimagesmall {
-    width: 50%;
+    width: 45%;
     cursor: pointer;
 }
 
@@ -370,6 +370,15 @@ img {
     height: 80vh;
     overflow-y: scroll;
     padding-bottom: 7.5%;
+}
+
+.scrolling-movies {
+    height: 80vh;
+    overflow-y: scroll;
+    padding-bottom: 7.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .lyrics {
