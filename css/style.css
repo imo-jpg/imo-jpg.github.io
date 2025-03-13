@@ -531,6 +531,10 @@ img {
         height: auto;
     }
 
+    .scrolling-movies {
+        height: auto;
+    }
+
     .scrollimagesmall {
         width: 100%;
     }
