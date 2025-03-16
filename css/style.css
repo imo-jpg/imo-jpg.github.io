@@ -42,6 +42,10 @@ div {
     margin: 2% 0 0 0; 
 }
 
+.featured_link {
+    margin: 2% 0 0 0; 
+}
+
 #casestudies {
     border: 1px #ffffff;
 }
@@ -52,22 +56,29 @@ div {
 }
 
 #case-study .descrip-title {
-    margin: 5% auto 1% auto;
-    width: 55%;
+    margin: 5% auto 1.5% auto;
+    width: 65%;
     font-weight: 700;
     font-size: 1.75rem;
+    /* background-color: #2686AA;
+    color: #111111;
+    padding: 1%; */
 }
 
 #case-study .descrip-subtitle {
     margin: 5% auto 1% auto;
-    width: 55%;
+    width: 65%;
     font-weight: 400;
     font-size: 1.5rem;
 }
 
+#case-study .descrip-subtitle:first-of-type {
+    margin: 0 auto 1% auto;
+}
+
 #case-study .descrip {
     margin: 0 auto 20px auto;
-    width: 55%;
+    width: 65%;
 }
 
 #case-study .caption {
@@ -89,7 +100,7 @@ div {
 
 .callouts {
     display: flex;
-    width: 55%;
+    width: 65%;
     flex-direction: row;
     justify-content: space-between;
     margin: 1% auto 5% auto;
@@ -502,14 +513,14 @@ img {
     }
     
     #case-study .descrip-title {
-        margin: .5% auto;
+        margin: 10% auto 2.5% auto;
         width: 100%;
         font-weight: 700;
         font-size: 1.25rem;
     }
 
     #case-study .descrip-subtitle {
-        margin: .5% auto;
+        margin: 10% auto 2.5% auto;
         width: 100%;
         font-weight: 400;
         font-size: 1.25rem;
@@ -532,6 +543,18 @@ img {
 
     #case-study .scrollimage {
         margin: 0 auto;
+        width: 100%;
+    }
+
+    .callouts {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 1% auto 5% auto;
+    }
+    
+    .callout {
         width: 100%;
     }
 
