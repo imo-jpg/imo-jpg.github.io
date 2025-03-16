@@ -32,13 +32,6 @@ div {
     align-items: center;
 }
 
-.previews-left {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-}
-
 .thumbnail_small {
     margin: 0;
     width: auto;
@@ -49,15 +42,26 @@ div {
     margin: 2% 0 0 0; 
 }
 
+#casestudies {
+    border: 1px #ffffff;
+}
+
 #case-study {
     overflow-y: hidden;
     height: 100vh;
 }
 
 #case-study .descrip-title {
-    margin: 5% auto 0 auto;
+    margin: 5% auto 1% auto;
     width: 55%;
     font-weight: 700;
+    font-size: 1.75rem;
+}
+
+#case-study .descrip-subtitle {
+    margin: 5% auto 1% auto;
+    width: 55%;
+    font-weight: 400;
     font-size: 1.5rem;
 }
 
@@ -81,6 +85,33 @@ div {
     display: block;
     width: 65%;
     margin: 2.5% auto 1.5% auto;
+}
+
+.callouts {
+    display: flex;
+    width: 55%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1% auto 5% auto;
+}
+
+.callout {
+    width: 30%;
+}
+
+.callout-num {
+    font-weight: 700;
+    color: #2686AA;
+    font-size: .9rem;
+}
+
+.callout-title {
+    font-weight: 700;
+    margin: 0;
+}
+
+.callout-main {
+    font-size: .9rem;
 }
 
 #main-subpage {
@@ -197,7 +228,7 @@ ul li a {
 .tag {
     font-size: 12px;
     border: 1px solid #717171;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 5px 10px;
     margin-right: 10px;
 }
@@ -471,9 +502,16 @@ img {
     }
     
     #case-study .descrip-title {
-        margin: 0 auto;
+        margin: .5% auto;
         width: 100%;
         font-weight: 700;
+        font-size: 1.25rem;
+    }
+
+    #case-study .descrip-subtitle {
+        margin: .5% auto;
+        width: 100%;
+        font-weight: 400;
         font-size: 1.25rem;
     }
     
