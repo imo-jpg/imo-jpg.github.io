@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap');
 body {
-    font-family: 'IBM Plex Mono', monotype;
+    font-family: 'IBM Plex Sans', monotype;
     background-color: #111111;
     color: #ffffff;
     margin: 5% 10%;
