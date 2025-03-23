@@ -564,6 +564,10 @@ img {
         width: 100%;
     }
 
+    .calloutbox {
+        width: 100%;
+    }
+
     .callouts {
         display: flex;
         width: 100%;
