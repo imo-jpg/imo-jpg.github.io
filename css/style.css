@@ -183,7 +183,7 @@ div {
 }
 
 h2 {
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-weight: 700;
     position: relative;
     display: inline-block;
@@ -223,12 +223,12 @@ a {
 }
 
 h2 a {
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 
 #main-subpage h2, h2 a {
-    font-size: 2.25rem;
+    font-size: 2rem;
 }
 
 
