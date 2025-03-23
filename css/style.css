@@ -74,10 +74,6 @@ div {
     font-size: 1.5rem;
 }
 
-#case-study .descrip-subtitle:first-of-type {
-    margin: 0 auto 1% auto;
-}
-
 #case-study .descrip {
     margin: 0 auto 20px auto;
     width: 65%;
@@ -101,22 +97,39 @@ div {
     margin: 2.5% auto 1.5% auto;
 }
 
+.calloutbox {
+    width: 65%;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin: 60px auto 0 auto;
+    padding: 2%;
+}
+
+#case-study .calloutbox .descrip-subtitle {
+    width: 100%;
+}
+
 .callouts {
     display: flex;
-    width: 65%;
+    width: 100%;
     flex-direction: row;
     justify-content: space-between;
     margin: 1% auto 5% auto;
-}
+}  
 
 .callout {
     width: 30%;
+}
+
+.callout-two {
+    width: 45%;
 }
 
 .callout-num {
     font-weight: 700;
     color: #2686AA;
     font-size: .9rem;
+    margin-bottom: 1%;
 }
 
 .callout-title {
@@ -127,6 +140,7 @@ div {
 .callout-main {
     font-size: 1rem;
     font-family: 'IBM Plex Sans', sans-serif;
+    margin-top: 1%;
 }
 
 #main-subpage {
@@ -559,6 +573,10 @@ img {
     }
     
     .callout {
+        width: 100%;
+    }
+
+    .callout-two {
         width: 100%;
     }
 
