@@ -7,7 +7,7 @@ html {
 
 .container {
     display: grid;
-    grid-template-columns: [left-edge] 12px [line1] auto [line2] auto [line3] auto [line4] auto [line5] 12px [right-edge];
+    grid-template-columns: [left-edge] 12px [line1] 140px [line2] 140px [line3] auto [line4] auto [line5] 12px [right-edge];
     grid-template-rows: [header-start] auto [header-end menu-start] auto [menu-end  proj1-start] auto [proj1-end proj2-start] auto [proj2-end proj3-start] auto [proj3-end proj4-start] auto [proj4-end proj5-start] auto [proj5-end proj6-start] auto [proj6-end proj7-start] auto [proj7-end proj8-start] auto [proj8-end footer-start] auto [footer-end];
     column-gap: 16px;
     row-gap: 16px;
@@ -149,6 +149,7 @@ p {
 
     .container {
         margin: 0;
+        grid-template-columns: [left-edge] 12px [line1] auto [line2] auto [line3] auto [line4] auto [line5] 12px [right-edge];
         grid-template-rows: [header-start] auto [header-end menu-start] auto [menu-end  proj1-start] auto [proj1-end proj2-start] auto [proj2-end proj3-start] auto [proj3-end proj4-start] auto [proj4-end proj5-start] auto [proj5-end proj6-start] auto [proj6-end proj7-start] auto [proj7-end proj8-start] auto [proj8-end footer-start] auto [footer-end];
     }
 
