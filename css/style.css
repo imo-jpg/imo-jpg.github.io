@@ -138,6 +138,10 @@ p {
 
 @media only screen and (max-width:800px) {
 
+    body {
+        font-family: 'IBM Plex Mono', monotype;
+    }
+
     .container {
         margin: 0;
         grid-template-rows: [header-start] auto [header-end menu-start] auto [menu-end  proj1-start] auto [proj1-end proj2-start] auto [proj2-end proj3-start] auto [proj3-end proj4-start] auto [proj4-end proj5-start] auto [proj5-end proj6-start] auto [proj6-end proj7-start] auto [proj7-end proj8-start] auto [proj8-end footer-start] auto [footer-end];
