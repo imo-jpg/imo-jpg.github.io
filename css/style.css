@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
-
 html {
     font-size: 16px; 
 }
@@ -116,15 +114,10 @@ a:hover {
     grid-column-start: line1;
     grid-column-end: line5;
     height: 500px;
-    /* background-color: #111111; */
     display: flex;
     margin: 12px 0;
     overflow-x: scroll;
 }
-
-/* .editorial > .project-images {
-    background-color: #ffffff;
-} */
 
 .scrollimage {
     height: 100%;
