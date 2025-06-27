@@ -143,10 +143,6 @@ p {
 
 @media only screen and (max-width:800px) {
 
-    body {
-        font-family: 'IBM Plex Mono', monotype;
-    }
-
     .container {
         margin: 0;
         grid-template-columns: [left-edge] 12px [line1] auto [line2] auto [line3] auto [line4] auto [line5] 12px [right-edge];
@@ -175,5 +171,9 @@ p {
 
     .project-images {
         height: 200px;
+    }
+
+    .body {
+        grid-column-end: line5;
     }
 }
