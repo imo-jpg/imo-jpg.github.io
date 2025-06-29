@@ -131,15 +131,9 @@ a:hover {
     margin: 12px 0;
     overflow-x: scroll;
 }
-/* 
-.project1, .project3 {
-    background-color: #000000;
-    color: #ffffff;
-} */
-
 .scrollimage {
     height: 100%;
-    /* margin-right: 12px; */
+    margin-right: 12px;
 }
 
 .gif {
