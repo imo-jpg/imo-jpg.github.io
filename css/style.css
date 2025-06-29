@@ -7,7 +7,7 @@ html {
 
 .container {
     display: grid;
-    grid-template-columns: [left-edge] 12px [line1] 140px [line2] 140px [line3] auto [line4] auto [line5] 12px [right-edge];
+    grid-template-columns: [left-edge] 4px [line1] 140px [line2] 140px [line3] auto [line4] auto [line5] 12px [right-edge];
     grid-template-rows: [header-start] auto [header-end menu-start] auto [menu-end  proj1-start] auto [proj1-end proj2-start] auto [proj2-end proj3-start] auto [proj3-end proj4-start] auto [proj4-end proj5-start] auto [proj5-end proj6-start] auto [proj6-end proj7-start] auto [proj7-end proj8-start] auto [proj8-end footer-start] auto [footer-end];
     column-gap: 16px;
     row-gap: 16px;
@@ -15,7 +15,7 @@ html {
 
 body {
     color: #111111;
-    margin: 24px;
+    /* margin: 24px; */
     text-transform: uppercase;
 }
 
@@ -77,7 +77,7 @@ a:hover {
     display: grid;
     grid-template-columns: subgrid;
     margin-bottom: 12px;
-    padding-bottom: 12px;
+    padding: 12px;
     border-bottom: 1px solid #111111;
 }
 
@@ -125,15 +125,25 @@ a:hover {
 .project-images {
     grid-column-start: line1;
     grid-column-end: line5;
-    height: 500px;
+    height: 600px;
     display: flex;
+    align-items: center;
     margin: 12px 0;
     overflow-x: scroll;
 }
+/* 
+.project1, .project3 {
+    background-color: #000000;
+    color: #ffffff;
+} */
 
 .scrollimage {
     height: 100%;
-    margin-right: 12px;
+    /* margin-right: 12px; */
+}
+
+.gif {
+    height: 85%;
 }
 
 p {
