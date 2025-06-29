@@ -169,15 +169,25 @@ p {
         grid-column-end: line5;
     }
 
+
+    .project {
+        margin: 0;
+        padding: 0 0 12px 0;
+    }
+
     .projectname {
         font-weight: 500;
     }
 
     .project-images {
-        height: 200px;
+        height: 180px;
     }
 
     .body {
         grid-column-end: line5;
+    }
+
+    .gif {
+        height: 100%;
     }
 }
