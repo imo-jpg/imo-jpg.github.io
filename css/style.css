@@ -55,6 +55,7 @@ a:hover {
     grid-row-start: header-start;
     grid-row-end: header-end;
     border-bottom: 1px solid #111111;
+    padding-bottom: 12px;
 }
 
 .menu {
