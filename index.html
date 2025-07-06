@@ -9,22 +9,22 @@
         <link href="css/style.css" type="text/css" rel="stylesheet" /> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-    <body class="container">
+    <body class="container UXUI">
         <div class="header">
             <div class="title">
                  <h2 class="name">
                     <a href="/index.html">Imogen Todd</a>
                 </h2>
                 <p>I’m a digital designer based in Washington, DC.</p>
-                <p>I create engaging data products at my day job and silly websites in my free time.</p>
+                <p>I create engaging data products at my day job and code silly websites (including this one) in my free time.</p>
                 <p>For freelance opportunities, please reach out at imo.todd@gmail.com</p>
             </div>
         </div>
 
         <div class="menu">
-            <a href="#"><span>UX/UI</span></a>
-            <a href="/dataviz.html">Data Viz</a>
-            <a href="/editorial.html">Editorial Design</a>
+            <a id="UXUI-link" class="current" href="#"><span>UX/UI</span></a>
+            <a id= "dataviz-link" href="/dataviz.html">Data Viz</a>
+            <a id="editorial-link" href="/editorial.html">Other</a>
         </div>
 
         <div class="project project1">
@@ -68,6 +68,26 @@
 
         <div class="project project3">
             <div class="client">Personal</div>
+            <div class="year">2022</div>
+            <div class="name-description">
+                <p class="projectname">Turning and Turning...</p>
+                <p>UX/UI and coding</p>
+            </div>
+            <div class="project-images">
+                <img class="scrollimage" src="css/TFA1.gif" alt="" onclick="window.open(this.src, '_blank');">            
+                <img class="scrollimage" src="css/TFA3.gif" alt="" onclick="window.open(this.src, '_blank');">  
+                <img class="scrollimage" src="css/TFA-static-1.jpg" alt="" onclick="window.open(this.src, '_blank');">            
+                <img class="scrollimage" src="css/TFA-static-2.jpg" alt="" onclick="window.open(this.src, '_blank');">            
+                <img class="scrollimage" src="css/TFA-static-3.jpg" alt="" onclick="window.open(this.src, '_blank');">   
+                <img class="scrollimage" src="css/TFA-static-4.jpg" alt="" onclick="window.open(this.src, '_blank');">            
+                <img class="scrollimage" src="css/TFA-static-5.jpg" alt="" onclick="window.open(this.src, '_blank');">            
+                <img class="scrollimage" src="css/TFA-static-6.jpg" alt="" onclick="window.open(this.src, '_blank');">           
+            </div>
+            <p class="body">An experiment in D3.js set to poetry, using and modifying the "gooey" SVG code created by Lucas Bebber and expanded upon by Nadieh Bremer.</p>
+        </div>
+        
+        <div class="project project4">
+            <div class="client">Personal</div>
             <div class="year">2023</div>
             <div class="name-description">
                 <p class="projectname">David Bowie Lyrics Game</p>
@@ -81,7 +101,8 @@
             </div> 
             <p class="body">This is a game, built in collaboration with Graham Todd, where you try to distinguish the real Bowie lyrics from those generated with our n-gram language model. You can play the game <a target="_blank" href="https://imo-jpg.github.io/bowie-n-grams/">here</a>.</p>       
         </div>
-        <div class="project project4">
+
+        <div class="project project5">
             <div class="client">Personal</div>
             <div class="year">2025</div>
             <div class="name-description">
