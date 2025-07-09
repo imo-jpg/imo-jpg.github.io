@@ -1,47 +1,30 @@
-let links = document.getElementsByClassName("link");
+if (window.innerWidth < 800) {
+    let readmores = document.getElementsByClassName("readmore");
 
-for (let i = 0; i < links.length; i++) {
-    links[i].addEventListener("click", showPreview);
-    // links[i].addEventListener("touchstart", showPreview);
-}
-
-function showPreview(event) {
-    let element = event.target;
-    let preview = event.target.nextSibling.nextSibling;
-
-    if (element.classList.contains("open") == false) {
-        preview.classList.add("show");
-        event.target.classList.add("open");
-
-    } else {
-        preview.classList.remove("show");
-        event.target.classList.remove("open");
+    for (let i = 0; i < readmores.length; i++) {
+        readmores[i].addEventListener("click", showPreview);
     }
-}
 
+    console.log("small");
+    function showPreview(event) {
+        let element = event.target;
+        let preview = event.target.nextSibling.nextSibling;
 
-let slideIndex = 1;
-showSlides(slideIndex);
+        element.classList.remove("less");
+        preview.classList.add("less");
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+        if (element.classList.contains("show") == false) {
+            preview.classList.remove("less");
+            preview.classList.add("more");
+            element.classList.add("show");
+            element.textContent = "Hide Description";
 
-function showSlides(n) {
-    let slides = document.getElementsByClassName("slides");
-    
-    if (n > slides.length) {
-        slideIndex = 1;
-    };
+        } else {
+            preview.classList.remove("more");
+            preview.classList.add("less");
+            element.classList.remove("show");
+            element.textContent = "See Description";
 
-    if (n < 1) {
-        slideIndex = slides.length;
-    };
-
-    for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    };
-    
-    slides[slideIndex-1].style.display = "block";
-}
-
+        }
+    }
+};

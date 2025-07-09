@@ -13,6 +13,14 @@ html {
     row-gap: 16px;
 }
 
+.more {
+    display: block;
+}
+
+.less {
+    display: none;
+}
+
 body {
     color: #111111;
     /* margin: 24px; */
