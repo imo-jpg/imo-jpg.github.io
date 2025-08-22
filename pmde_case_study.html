@@ -8,49 +8,50 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
     </head>
-    <body id="case-study">
-        <div class="title">
-            <h2 class="name"><a href="index.html">Imogen Todd</a></h2>
+    <body class="container casestudy">
+        <div class="header">
+            <h2 class="name">
+                Imogen Todd: Case Study 1
+            </h2>
+            <p class="projectname">ENERGY STAR Portfolio Manager Data Explorer</p>
+            <div class="year">2023-2025</div>
+            <p>UX/UI and Data Viz</p>
         </div>
-        <div class="content">
-            <h3 class="section">ENERGY STAR Portfolio Manager Data Explorer: A Case Study</h3>
-            <div class="tags">
-                <p class="tag">Abt Global</p>
-                <p class="tag">data viz</p>
-                <p class="tag">UX design</p>
-            </div>
-            <div class="subcontent">
-                <div class="scrolling">
-                    <a href="https://portfoliomanager.energystar.gov/dataExplorer/" target="_blank" rel="noopener noreferrer">
-                    <img class="scrollimage" src="css/pmde_graph.png" alt="An example data query in PMDE showing median Site EUI by gross floor area"></a>
-                    <p class="caption">Click the image above to visit the final site</p>
 
-                    <p class="descrip-title">Context</p>
-                    <p class="descrip-subtitle">Background</p>
-                    <p class="descrip">
+        <div class="project">
+            
+
+                    <a href="https://portfoliomanager.energystar.gov/dataExplorer/" target="_blank" rel="noopener noreferrer">
+                    <img class="scrollimage" src="css/pmde_graph.png" alt="An example data query in PMDE showing median Site EUI by gross floor area">
+                    </a>
+                    <p class="body caption">Click the image above to visit the final site</p>
+
+                    <p class="body title">Context</p>
+                    <p class="body subtitle">Background</p>
+                    <p class="body">
                         ENERGY STAR is a joint energy efficiency program from the U.S. Environmental Protection Agency (EPA) and Department of Energy (DOE).
                         Every year, thousands of commercial building owners across the United States use ENERGY STAR's Portfolio Manager tool to report and manage energy use data about their buildings, as well as details like occupancy, age, size, and more.
                     </p>
-                    <p class="descrip-subtitle">Problem Space</p>
-                    <p class="descrip">
+                    <p class="body subtitle">Problem Space</p>
+                    <p class="body">
                         In an effort to help guide policy decisions around energy efficiency, the Portfolio Manager team wanted a tool to make this data public that was easy to use, offered a “customized” experience, and maintained buildings’ privacy.
                     </p>
-                    <p class="descrip-subtitle">Team and Roles</p>
-                    <p class="descrip">
+                    <p class="body subtitle">Team and Roles</p>
+                    <p class="body">
                         I served as task lead and head designer and worked with a data scientist, GIS expert, front- and back-end developers, and our project director.
                     </p>
 
-                    <p class="descrip-title">Project Process</p>
+                    <p class="body title">Project Process</p>
                     <img class="scrollimage" src="css/PMDE_Process_dark.png" alt="a screenshot of a process diagram that shows different activities for different project phases" onclick="window.open(this.src, '_blank');">
 
-                    <p class="descrip-title">Phase 1: Requirements Gathering</p>
-                    <p class="descrip">                        
+                    <p class="body title">Phase 1: Requirements Gathering</p>
+                    <p class="body">                        
                         Following a kickoff meeting, our team started the first phase of the project by collecting input from clients and colleagues to identify the tool's users and their needs. We used client interviews as proxies for more generative user research in order to avoid Paperwork Reduction Act implications as we knew we wanted to speak to users when testing the completed tool.
                     </p>
-                        <p class="descrip">After synthesizing these conversations, I sketched (and sketched, and sketched...) as a way to explore which features and visualization types we wanted to include to best serve the needs of our users, making sure to craft an experience in service of the underlying data.
+                        <p class="body">After synthesizing these conversations, I sketched (and sketched, and sketched...) as a way to explore which features and visualization types we wanted to include to best serve the needs of our users, making sure to craft an experience in service of the underlying data.
                     </p>
                     <div class="calloutbox">
-                        <p class="descrip-subtitle">Key Phase 1 Questions</p>
+                        <p class="body subtitle">Key Phase 1 Questions</p>
                         <div class="callouts">
                             <div class="callout">
                                 <p class="callout-num">1</p>
@@ -58,15 +59,15 @@
                             </div>
                             <div class="callout">
                                 <p class="callout-num">2</p>
-                                <p class="callout-title">What are the different users' needs?</p>
+                                <p class="callout-title">What are the users' needs?</p>
                             </div>
                             <div class="callout">
                                 <p class="callout-num">3</p>
-                                <p class="callout-title">What functionality does the tool need to have to support those needs?</p>
+                                <p class="callout-title">What functionality does the tool need to have?</p>
                             </div>
                         </div>
 
-                        <p class="descrip-subtitle">Key Phase 1 Insights</p>
+                        <p class="body subtitle">Key Phase 1 Insights</p>
                         <div class="callouts">
                             <div class="callout">
                                 <p class="callout-num">1</p>
@@ -87,22 +88,22 @@
                     </div>
                    
                     <br>
-                    <p class="descrip-title">Phase 2: Design</p>
-                    <p class="descrip">
+                    <p class="body title">Phase 2: Design</p>
+                    <p class="body">
                         In phase 2, I moved on from sketches to low fidelity wireframes. The goals with these rounds of iterations were to decide on and refine the layout of the tool, decide what features were must-haves, and begin to work with real data so we could stress test our ideas.
                     </p>
-                    <p class="descrip">
+                    <p class="body">
                         To that end, I collaborated with our data scientist and developers as I produced the wireframes and took them through internal and external reviews.
                         This process allowed us to settle on layout and key features—including the filters panel—and refine our visualization choices.
                     </p>
                     <!-- <img class="scrollimage" src="css/PMDE3.png" alt="a screenshot of a wireframe using mostly blues to show a box-and-whisker plots of ENERGY STAR scores for public service buildings organized by the year those buildings were built" onclick="window.open(this.src, '_blank');">
                     <p class="caption">Early wireframes had additional visualizations alongside the main ones, but the clients decided this might be distracting. This example also shows an extremely simplified filtering experience.</p> -->
-                    <p class="descrip">
+                    <p class="body">
                         To further refine the included features in service of the users' experience and to finalize the tool's overall UX, I moved on to higher levels of fidelity in our wireframes.
                     </p>
                     
                     <div class="calloutbox">
-                        <p class="descrip-subtitle">Key Phase 2 Questions</p>
+                        <p class="body subtitle">Key Phase 2 Questions</p>
                         <div class="callouts">
                             <div class="callout">
                                 <p class="callout-num">1</p>
@@ -118,7 +119,7 @@
                             </div>
                         </div>
 
-                        <p class="descrip-subtitle">Key Phase 2 Insights</p>
+                        <p class="body subtitle">Key Phase 2 Insights</p>
                         <div class="callouts">
                             <div class="callout">
                                 <p class="callout-num">1</p>
@@ -128,34 +129,34 @@
                             <div class="callout">
                                 <p class="callout-num">2</p>
                                 <p class="callout-title">Wireframes are more than just a means to an end.</p>
-                                <p class="callout-main">With a long-term project like this, it was important to bring the clients along with us as we moved through the phases. To do that, we used wireframes and other designed materials not only as a way to build consensus on the tool's functionality, but also as a way to communicate project milestones, progress, and setbacks. And example of this kind of artifact is presented below. </p>
+                                <p class="callout-main">With a long-term project like this, it was important to bring the clients along with us as we moved through the phases. To do that, we used wireframes and other designed materials not only as a way to build consensus on the tool's functionality, but also as a way to communicate project milestones, progress, and setbacks.</p>
                             </div>
                             <div class="callout">
                                 <p class="callout-num">3</p>
                                 <p class="callout-title">Design systems can be used as guardrails, not cages.</p>
-                                <p class="callout-main">To keep the tool in line with government web standards and to maintain trust in the site, we had to use the U.S. Web Design System (USWDS) for our UI. However, there were cases where we had to expand upon existing USWDS components to accommodate our unique needs. An example of this is outlined in more detail below.</p>
+                                <p class="callout-main">To keep the tool in line with government web standards and to maintain trust in the site, we had to use the U.S. Web Design System (USWDS) for our UI. However, there were cases where we had to expand upon existing USWDS components to accommodate our unique needs.</p>
                             </div>
                         </div>
                     </div>
                     
-                    <p class="descrip-subtitle">Example Phase 2 Materials</p>
+                    <p class="body subtitle">Example Phase 2 Materials</p>
                     <img class="scrollimage" src="css/features_PMDE.jpg" alt="a screenshot of multiple pill-shaped words bubble describing key features of the PMDE tool" onclick="window.open(this.src, '_blank');">
-                    <p class="caption">An example of a visual artifact that we used to align with clients and communicate both functionality and progress. As we designed and implemented the different areas of the tool, we returned to this diagram with the clients to show what we'd completed and what was still being developed.</p>
+                    <p class="body caption">An example of a visual artifact that we used to align with clients and communicate both functionality and progress. As we designed and implemented the different areas of the tool, we returned to this diagram with the clients to show what we'd completed and what was still being developed.</p>
                     <img class="scrollimage" src="css/filters_PMDE_USWDS.jpg" alt="a screenshot of two kinds of combo boxes. The first has numerous different use cases, while the second only has open and closed variants." onclick="window.open(this.src, '_blank');">
-                    <p class="caption">An example of a component that existed in the USWDS but had to be customized for our needs. We needed to let users select multiple, nested items in the filters, so we designed our own version of the combo box.</p>
+                    <p class="body caption">An example of a component that existed in the USWDS but had to be customized for our needs. We needed to let users select multiple, nested items in the filters, so we designed our own version of the combo box.</p>
                         
-                    <p class="descrip-title">Phase 3: Development</p>
-                    <p class="descrip">
+                    <p class="body title">Phase 3: Development</p>
+                    <p class="body">
                         As I was bringing the features and functionality of the tool from low through high fidelity wireframes, our developers were hard at work creating the underlying database that would serve the tool and support the different kinds of queries a user could put together.
                     </p>
-                    <p class="descrip">
+                    <p class="body">
                         Once this initial backend work was finished and our developers began to connect it to the frontend and build out what woudl become the final React app based on the wireframes, I served as an informal scrum master, leading standups and sheperding JIRA tickets through our sprint process. I also led a round of user testing on an early version of the site and helped translate the findings from those sessions into updates to the tool's design.
                     </p>
-                    <p class="descrip"> 
+                    <p class="body"> 
                         After these final changes, we launched the site (available here: <a href="https://portfoliomanager.energystar.gov/dataExplorer/" target="_blank" rel="noopener noreferrer">ENERGY STAR Portfolio Manager Data Explorer</a>) and have been making continuous improvements, including adding new metrics and visualization types and optimizing the tool for mobile.
                     </p>
                     <div class="calloutbox">
-                        <p class="descrip-subtitle">Key Phase 3 Questions</p>
+                        <p class="body subtitle">Key Phase 3 Questions</p>
                         <div class="callouts">
                             <div class="callout">
                                 <p class="callout-num">1</p>
@@ -171,7 +172,7 @@
                             </div>
                         </div>
 
-                        <p class="descrip-subtitle">Key Phase 3 Insights</p>
+                        <p class="body subtitle">Key Phase 3 Insights</p>
                         <div class="callouts">
                             <div class="callout">
                                 <p class="callout-num">1</p>
@@ -190,21 +191,14 @@
                             </div>
                         </div>
                     </div>
-                    <p class="descrip-subtitle">The Final Site</p>
+                    <p class="body subtitle">The Final Site</p>
                     <img class="scrollimage" src="css/PMDE6.png" alt="a screenshot showing an example query in the PMDE tool in data table form showing Site EUI by Climate Zone and Year Built" onclick="window.open(this.src, '_blank');">
-                    <p class="caption">This screenshot shows an example query in data table form showing Site EUI by Climate Zone and Year Built.</p>
+                    <p class="body caption">This screenshot shows an example query in data table form showing Site EUI by Climate Zone and Year Built.</p>
 
                     <img class="scrollimage" src="css/PMDE5.png" alt="a screenshot showing an example query in the PMDE tool in bar chart format showing ENERGY STAR scores by property type" onclick="window.open(this.src, '_blank');">
-                    <p class="caption">This screenshot shows an example query in chart format showing ENERGY STAR scores by property type.</p>
+                    <p class="body caption">This screenshot shows an example query in chart format showing ENERGY STAR scores by property type.</p>
 
-                </div>
-
-                <!-- <div class="preview">
-                    <div class="scrolling">
-                    </div>
-
-                </div>      -->
-            </div>
+                
         </div>
        
         <script src="script.js"></script>

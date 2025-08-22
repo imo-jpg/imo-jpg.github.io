@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,300;0,400;0,500;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,300;0,400;0,500;0,700;1,300&display=swap');
+
 
 html {
     font-family: 'IBM Plex Mono', monotype;
@@ -54,6 +56,84 @@ a {
     padding: 16px 16px 12px 16px;
     white-space: preserve nowrap;
     margin-right: -10px;
+}
+
+.casestudy {
+    display: grid;
+    grid-template-columns: [left-edge] 360px [line1] 1fr [line5] 360px [right-edge];
+    grid-template-rows: [header-start] auto [header-end project-start] auto [project-end footer-start] auto [footer-end];
+    column-gap: 16px;
+    row-gap: 16px;
+    font-size: 20px; 
+}
+
+.casestudy .project {
+    grid-column-start: line1;
+    grid-column-end: line5;
+    grid-row-start: project-start;
+    grid-row-end: project-end;
+    margin-bottom: 12px;
+    padding: 12px 0;
+    border: none;
+}
+
+.casestudy .calloutbox {
+    padding: 24px 24px;
+    border-top: 2px solid #1ea7b6;
+    border-bottom: 2px solid #1ea7b6;
+    background-color: #8ec7ce31;
+    text-transform: none;
+    font-weight: 300;
+    margin: 24px 0;
+}
+
+.calloutbox .subtitle {
+    color: #177E89;
+    margin-top: 12px;
+}
+
+.casestudy .callouts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.casestudy .callout {
+    width: 30%;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.callout-title {
+    font-weight: bold;
+    padding-bottom: 4px;
+}
+
+.casestudy .body {
+    margin: 8px 0 12px 0;
+    font-weight: 300;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.casestudy .title {
+    margin: 18px 0 12px 0;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #111111;
+}
+
+.casestudy .subtitle {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.casestudy .caption {
+    font-style: italic;
+}
+
+.casestudy .scrollimage {
+    padding-top: 24px;
+    width: 100%;
 }
 
 /* #UXUI-link {
@@ -121,7 +201,7 @@ a:hover {
     display: grid;
     grid-template-columns: subgrid;
     margin-bottom: 12px;
-    padding: 12px;
+    padding: 12px 0;
     border-bottom: 1px solid #111111;
 }
 
